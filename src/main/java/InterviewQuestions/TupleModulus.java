@@ -1,3 +1,5 @@
+package InterviewQuestions;
+
 /**
  * 面试题 两个可重复的数组里面找公共的最小模
  */
