@@ -5,7 +5,7 @@ import BasicAlgorithm.StructureOfAlgorithm.TreeNode;
 /**
  * Author: Yuxuan Liu(Nash)
  * Time: 2021/5/5
- * Link of question: https://www.nowcoder.com/practice/8a2b2bf6c19b4f23a9bdb9b233eefa73
+ * Link of question: https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6
  *
  * Problem-solving ideas:
  *  重点在于 中序遍历中 左边界到根节点的数量等于 先序遍历的第一段左子树子数组的个数 然后加一就是右子树的左边界
