@@ -1,5 +1,11 @@
+package InterviewQuestions.JudgementRangeHasDaffodilNumber;
+
 import java.util.Scanner;
 
+/**
+ * 水仙花数 判断范围内有无水仙花数
+ *
+ */
 public class Main {
     public static void main(String[] args)
     {

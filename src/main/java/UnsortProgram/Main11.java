@@ -1,11 +1,11 @@
-package InterviewQuestions;
+package UnsortProgram;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
 
-public class Main{
+public class Main11{
     static void sort(int[] arr, int begin, int end)
     {
         if(begin>=end)

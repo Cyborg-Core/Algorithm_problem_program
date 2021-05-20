@@ -1,8 +1,5 @@
-package meituan_catchTT;
+package UnsortProgram.meituan_catchTT;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
