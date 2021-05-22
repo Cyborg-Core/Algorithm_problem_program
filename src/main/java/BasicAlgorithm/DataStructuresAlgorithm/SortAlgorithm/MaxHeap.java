@@ -1,4 +1,4 @@
-package BasicAlgorithm.DataStructuresAlgorithm;
+package BasicAlgorithm.DataStructuresAlgorithm.SortAlgorithm;
 
 public class MaxHeap {
 

@@ -1,4 +1,4 @@
-package InterviewQuestions.HouseRobber;
+package SolvedProblem.HouseRobber;
 
 /**
  * Author: Yuxuan Liu(Nash)

@@ -1,4 +1,4 @@
-package InterviewQuestions.FriendString;
+package SolvedProblem.FriendString;
 
 import java.util.Scanner;
 /**

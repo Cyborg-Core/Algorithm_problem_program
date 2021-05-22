@@ -1,7 +1,5 @@
 package BasicAlgorithm;
 
-import javax.swing.text.html.parser.Entity;
-import java.lang.reflect.Array;
 import java.util.*;
 class box {
     int a;

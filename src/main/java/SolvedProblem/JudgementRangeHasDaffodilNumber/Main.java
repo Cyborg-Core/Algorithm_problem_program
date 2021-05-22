@@ -1,4 +1,4 @@
-package InterviewQuestions.JudgementRangeHasDaffodilNumber;
+package SolvedProblem.JudgementRangeHasDaffodilNumber;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package InterviewQuestions.LongestValidParentheses;
+package SolvedProblem.LongestValidParentheses;
 
 /**
  * Author: Yuxuan Liu(Nash)

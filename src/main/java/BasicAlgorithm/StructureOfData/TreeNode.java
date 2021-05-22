@@ -1,4 +1,4 @@
-package BasicAlgorithm.StructureOfAlgorithm;
+package BasicAlgorithm.StructureOfData;
 
 public class TreeNode {
     public int val;

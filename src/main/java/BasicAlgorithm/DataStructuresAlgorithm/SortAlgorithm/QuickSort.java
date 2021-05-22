@@ -1,4 +1,4 @@
-package BasicAlgorithm.DataStructuresAlgorithm;
+package BasicAlgorithm.DataStructuresAlgorithm.SortAlgorithm;
 
 import java.util.LinkedList;
 import java.util.Queue;

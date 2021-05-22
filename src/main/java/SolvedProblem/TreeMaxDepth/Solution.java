@@ -1,8 +1,6 @@
-package InterviewQuestions.TreeMaxDepth;
+package SolvedProblem.TreeMaxDepth;
 
-import BasicAlgorithm.StructureOfAlgorithm.TreeNode;
-
-import java.util.*;
+import BasicAlgorithm.StructureOfData.TreeNode;
 
 /**
  * Author: Yuxuan Liu(Nash)

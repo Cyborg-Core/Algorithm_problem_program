@@ -1,4 +1,4 @@
-package InterviewQuestions.TrappingRainWater;
+package SolvedProblem.TrappingRainWater;
 //https://leetcode-cn.com/problems/trapping-rain-water/
 public class Solution {
 

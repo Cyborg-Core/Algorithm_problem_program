@@ -1,6 +1,6 @@
-package InterviewQuestions.BinaryTreeRightSideView;
+package SolvedProblem.BinaryTreeRightSideView;
 
-import BasicAlgorithm.StructureOfAlgorithm.TreeNode;
+import BasicAlgorithm.StructureOfData.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

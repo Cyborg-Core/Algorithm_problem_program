@@ -1,4 +1,4 @@
-package InterviewQuestions.CheckifArrayIsSortedandRotated;
+package SolvedProblem.CheckifArrayIsSortedandRotated;
 /**
  * Author: Yuxuan Liu(Nash)
  * Time: 2021/5/5

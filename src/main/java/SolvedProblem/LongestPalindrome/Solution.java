@@ -1,4 +1,4 @@
-package InterviewQuestions.LongestPalindrome;
+package SolvedProblem.LongestPalindrome;
 
 public class Solution {
     public String longestPalindrome(String s) {

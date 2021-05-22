@@ -1,6 +1,6 @@
-package InterviewQuestions.ReConstructBinaryTree;
+package SolvedProblem.ReConstructBinaryTree;
 
-import BasicAlgorithm.StructureOfAlgorithm.TreeNode;
+import BasicAlgorithm.StructureOfData.TreeNode;
 
 /**
  * Author: Yuxuan Liu(Nash)

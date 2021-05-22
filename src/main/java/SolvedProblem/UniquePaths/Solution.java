@@ -1,4 +1,4 @@
-package InterviewQuestions.UniquePaths;
+package SolvedProblem.UniquePaths;
 
 /**
  * dp 公式

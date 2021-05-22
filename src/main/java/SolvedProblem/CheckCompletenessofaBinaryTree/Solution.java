@@ -1,6 +1,6 @@
-package InterviewQuestions.CheckCompletenessofaBinaryTree;
+package SolvedProblem.CheckCompletenessofaBinaryTree;
 
-import BasicAlgorithm.StructureOfAlgorithm.TreeNode;
+import BasicAlgorithm.StructureOfData.TreeNode;
 
 /**
  * Author: Yuxuan Liu(Nash)
