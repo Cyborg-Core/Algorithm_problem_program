@@ -4,17 +4,24 @@ from typing import List
 class Solution:
     def maxDistToClosest(self, seats: List[int]) -> int:
         max_l = 0
-        flag = True
-        record = 1
-        for i in seats:
-            if i == 1:
-                max_l = max(max_l,record)
-                record =1
-
+        flag = False
+        record = 0
+        for s in seats:
+            if s == 1:
+                if flag:
+                    max_l = max(max_l, (record + 1) // 2)
+                else:
+                    max_l = max(max_l, record)
+                flag = True
+                record = 0
             else:
-                record+=1
+                record += 1
+        if seats[-1] == 0:
+            max_l = max(max_l, record)
         return max_l
-#
+
+
+pass
 # class Solution:
 #     def maxDistToClosest(self, seats: List[int]) -> int:
 #         left = [100000] * len(seats)
@@ -34,6 +41,6 @@ class Solution:
 #                 count +=1
 #             else:
 #                 count = 1
-        return result
+#         return result
 if __name__ == '__main__':
-    print(Solution().maxDistToClosest([0,0,0,0,1,0,0,0]))
+    print(Solution().maxDistToClosest([1, 0, 0, 0, 0, 0, 1, 0, 0, 0]))

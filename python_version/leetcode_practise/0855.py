@@ -16,26 +16,26 @@ class ExamRoom:
         return None
 
     def maxDistToClosest(self) -> int:
-        left = [2000000000] * len(self.seat_list)
-        count = 1 - self.seat_list[0]
-        for i in range(1, len(self.seat_list)):
-            if self.seat_list[i] == 1:
-                left[i] = -1
-                count = 0
+        max_l = 0
+        flag = False
+        record = 0
+        result = -1
+        for i, s in reversed([i for i in enumerate(self.seat_list)]):
+            if s == 1:
+                if flag:
+                    if max_l <= (record + 1) // 2:
+                        max_l = (record + 1) // 2
+                        result = i
+                else:
+                    if max_l <= record:
+                        max_l = record
+                        result = i
+
+                flag = True
+                record = 0
             else:
-                count +=1
-                left[i] = count
-        print(left)
-        count = 2000000000
-        result = 0
-        idx = -1
-        for j in range(len(self.seat_list)-1, -1, -1):
-            if self.seat_list[j] == 0:
-                max_dis = min(count, left[j])
-                if result >= max_dis:
-                    result = max_dis
-                    idx = j
-                count +=1
-            else:
-                count = 1
+                record += 1
+        if self.seat_list[-1] == 0:
+            if max_l <= record:
+                result = len(self.seat_list) -1
         return result
