@@ -20,3 +20,4 @@ class Solution:
                     fa.right.val = sum - childSum
             q = q2
         return root
+
