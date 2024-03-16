@@ -1,3 +1,6 @@
+from functools import cache
+
+
 class Solution:
     def sellingWood(self, m: int, n: int, prices: List[List[int]]) -> int:
         value = dict()
